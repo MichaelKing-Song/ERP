@@ -5,5 +5,8 @@ public class Hello {
 		System.out.println("Hello World!");
 		System.out.println("Hello Test！");
 		System.out.println(new java.util.Date());
+
+		Admin admin = new Admin();
+		Emp emp = new Emp();
 	}
 }
