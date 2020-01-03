@@ -1,0 +1,23 @@
+From 1d285dd38de6653128060f2071ce125c6071d1c6 Mon Sep 17 00:00:00 2001
+From: Michael <Michael.Song@huameisoft.cn>
+Date: Fri, 3 Jan 2020 13:07:15 +0800
+Subject: [PATCH] Change Admin.java
+
+---
+ Admin.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/Admin.java b/Admin.java
+index 5795754..764439c 100644
+--- a/Admin.java
++++ b/Admin.java
+@@ -1,4 +1,5 @@
+ import java.util.List;
+ public class Admin {
+ 	private List<Emp> emps;
++	private String aid;
+ }
+\ No newline at end of file
+-- 
+2.24.1.windows.2
+
