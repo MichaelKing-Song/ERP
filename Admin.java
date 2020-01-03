@@ -1,5 +1,8 @@
+package cm.itmk.hr.vo;
 import java.util.List;
-public class Admin {
+import java.io.*;
+
+public class Admin implements Serializable {
 	private List<Emp> emps;
 	private String aid;
 	private List<Action> actions = new ArrayList<Action>();
